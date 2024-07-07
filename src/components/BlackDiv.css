@@ -1,0 +1,23 @@
+.black-div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    width: 100%; /* Full width */
+  }
+  
+  .upper {
+    position: relative; /* Relative positioning for stacking */
+    z-index: 1001; /* Ensure upper position */
+    border-bottom: #fff solid;
+    height: 80px;
+  }
+  
+  .lower {
+    position: relative; /* Relative positioning for stacking */
+    z-index: 1001; /* Ensure upper position */
+    border-top: #fff solid;
+  }
+  
